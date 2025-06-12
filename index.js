@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express from "express";
-import { ApolloServer} from "apollo-server-express";
+import { ApolloServer} from "apollo-server"
 import { createServer } from "http";
 import { WebSocketServer } from "ws";
 import { useServer } from 'graphql-ws/lib/use/ws';
